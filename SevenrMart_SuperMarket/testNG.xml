@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNG">
+    <classes>
+      <class name="testScript.LoginTest">
+        <methods>
+          <include name="verifyUserIsNotAbleToLoginInUsingInValidUsername"/>
+        </methods>
+      </class>
+    </classes>
+  </test> <!-- TestNG -->
+</suite> <!-- Suite -->
